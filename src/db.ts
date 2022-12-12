@@ -1,4 +1,4 @@
-import fs from 'fs';
+import * as fs from 'fs';
 import * as csv from 'fast-csv'
 import { authorType,bookType,magazineType } from './csvtype';
 
