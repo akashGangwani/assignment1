@@ -1,11 +1,12 @@
-import express, { Request, Response, Application } from 'express';
+import  * as express from 'express';
+import { Request, Response, Application } from 'express';
 import { authorType, bookType, magazineType } from './src/csvtype';
-import bodyParser, { json } from 'body-parser';
+import * as bodyParser from 'body-parser';
 import { authorData, booksData, magazinesData } from './src/db'
-import cors from 'cors';
-import fs from 'fs';
+import * as cors from 'cors';
+import * as fs from 'fs';
 import * as csv from 'fast-csv'
-import path from 'path';
+import * as path from 'path';
 const app: Application = express();
 
 
