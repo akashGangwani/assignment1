@@ -2,7 +2,7 @@
 
 #This is a nodejs express project
 
-#Public folder contains the reactjs build files that are being served statically using nodejs express server
+#Public folder contains the reactjs build files that are served statically using nodejs express server
 
 #Setting up guide
 
